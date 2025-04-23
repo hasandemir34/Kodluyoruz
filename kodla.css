@@ -1,0 +1,15 @@
+body{
+    background-color: lightblue; /*arka plan rengi*/
+    font-style: sans-serif; /*yazı tipi*/
+   
+}
+h1{
+    color: brown;
+    font-size: 20px;
+    text-transform: uppercase; /*bununla büyük harfle yazıyorum*/
+    font-style: italic; /*italik yapıyorum*/
+}
+.deneme{
+    color: salmon;
+    font-size: 56px;
+}
