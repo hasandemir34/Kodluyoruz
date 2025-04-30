@@ -1,10 +1,8 @@
-.box{
-width: 400px;
-height: 400px;
-}
-.bg-red{
-background-color: red;
-}
-.bg-yellow{
-background-color: yellow;
+#sayfa{
+    margin: auto; /*sayfanın ortasında ayarlıyor*/
+    border-style: solid;
+    margin-top: 20px;
+    width: 400px;
+    background-color: brown;
+
 }
