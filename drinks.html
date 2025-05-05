@@ -6,7 +6,7 @@
     <title>Drinks</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/favicon-16x16.png"type="image/x-icon">
-
+    <script src="sepet.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -20,11 +20,17 @@
               <a class="nav-link" href="index.html">Anasayfa</a>
               <a class="nav-link" href="foods.html">Yemekler</a>
               <a class="nav-link active" aria-current="page" href="#">İçecekler</a>
-              <a class="nav-link" href="sweets.html">Tatlılar</a>
+              <a class="nav-link" href="sweets.html">Tatlılar</a> 
             </div>
           </div>
         </div>
       </nav>
+
+      <div class="container mt-2">
+        <h3>Sepet</h3>
+        <ul id="cart-items" class="list-group"></ul>
+        <p class="mt-"><strong>Toplam: <span id="total-price">0</span>₺</strong></p>
+      </div>
 
 <div class="container">
     <div class="row mt-4">
@@ -35,6 +41,7 @@
               <h5 class="card-title">Filtre Kahve</h5>
               <p class="card-text">Yavaş demleme yöntemiyle elde edilen, yoğun aromalı filtre kahve.</p>
               <p><strong>Fiyat: 65₺</strong></p>
+              <button class="btn btn-primary add-to-cart" data-name="Filtre Kahve" data-price="65">Sepete Ekle</button>
             </div>
         </div>
       </div>
@@ -45,6 +52,7 @@
               <h5 class="card-title">Karamelli Latte</h5>
               <p class="card-text">Sıcak süt ve espressoya karamel sosun tatlı harika dokunuşu eşlik ediyor.</p>
               <p><strong>Fiyat: 70₺</strong></p>
+              <button class="btn btn-primary add-to-cart" data-name="Karamelli Latte" data-price="70">Sepete Ekle</button>
             </div>
         </div>
       </div>
@@ -55,6 +63,7 @@
               <h5 class="card-title">Matcha Latte</h5>
               <p class="card-text">Japon yeşil çay tozu ile hazırlanan, hem sağlıklı hem eşsiz bir tat deneyimi.</p>
               <p><strong>Fiyat: 55₺</strong></p>
+              <button class="btn btn-primary add-to-cart" data-name="Matcha Latte" data-price="55">Sepete Ekle</button>
             </div>
         </div>
       </div>
@@ -65,6 +74,7 @@
               <h5 class="card-title">Çilekli Smoothie</h5>
               <p class="card-text">Taze çilekler ve yoğurtla hazırlanan, serinletici bir yaz klasiği.</p>
               <p><strong>Fiyat: 60₺</strong></p>
+              <button class="btn btn-primary add-to-cart" data-name="Çilekli Smoothie" data-price="60">Sepete Ekle</button>
             </div>
         </div>
       </div>
